@@ -1,5 +1,5 @@
 // swift-tools-version: 5.9
-// SINH TỰ ĐỘNG bởi SpmAdsSwift/scripts/build-xcframeworks.sh — SpmAds v1.0.0. Không sửa tay.
+// SINH TỰ ĐỘNG bởi SpmAdsSwift/scripts/build-xcframeworks.sh — SpmAds v1.0.1. Không sửa tay.
 //
 // - Binary `SpmAds` = XCFramework STATIC, một module gộp (SpmAdsCore/SpmAds/SpmAdsSwiftUI/
 //   SpmAdsTracking/SpmAdsBilling). App chỉ cần `import SpmAds`.
@@ -26,8 +26,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SpmAds",
-            url: "https://github.com/Superminds-App/SpmAdsSwift-Distribution/releases/download/1.0.0/SpmAdsSDK-1.0.0.zip",
-            checksum: "3a724982d729ac43ab6e4a05a9787eea44755cf431198cf418184ac282b27074"
+            url: "https://github.com/Superminds-App/SpmAdsSwift-Distribution/releases/download/1.0.1/SpmAdsSDK-1.0.1.zip",
+            checksum: "1d10249624581626cb880ae12e7492ffb1456bcb213ef9a735c9f7c72b4c7d92"
         ),
         .target(
             name: "SpmAdsTarget",

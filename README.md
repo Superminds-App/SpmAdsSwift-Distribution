@@ -1,14 +1,14 @@
-# SpmAds (iOS) — gói phân phối v1.0.0
+# SpmAds (iOS) — gói phân phối v1.0.1
 
 Repo này chỉ chứa `Package.swift` sinh tự động. Mã nguồn + test ở repo SpmAdsSwift (private).
 
 ## Cài đặt (Swift Package Manager)
 
-Xcode → **File › Add Package Dependencies…** → `https://github.com/Superminds-App/SpmAdsSwift-Distribution` → *Exact Version* `1.0.0` →
+Xcode → **File › Add Package Dependencies…** → `https://github.com/Superminds-App/SpmAdsSwift-Distribution` → *Exact Version* `1.0.1` →
 chọn product **SpmAds** cho target app.
 
 ```swift
-.package(url: "https://github.com/Superminds-App/SpmAdsSwift-Distribution", exact: "1.0.0")
+.package(url: "https://github.com/Superminds-App/SpmAdsSwift-Distribution", exact: "1.0.1")
 // target: .product(name: "SpmAds", package: "SpmAdsSwift-Distribution")
 ```
 
@@ -24,8 +24,8 @@ Một module duy nhất `SpmAds` (gộp core, UIKit, SwiftUI, tracking, billing)
 
 | | |
 |---|---|
-| File | `SpmAdsSDK-1.0.0.zip` (XCFramework **static**, ios-arm64 + simulator) |
-| SHA256 | `3a724982d729ac43ab6e4a05a9787eea44755cf431198cf418184ac282b27074` |
+| File | `SpmAdsSDK-1.0.1.zip` (XCFramework **static**, ios-arm64 + simulator) |
+| SHA256 | `1d10249624581626cb880ae12e7492ffb1456bcb213ef9a735c9f7c72b4c7d92` |
 | iOS tối thiểu | 15.0 |
 
 ## Dependency (SPM, khoảng version — không nhúng trong binary)
